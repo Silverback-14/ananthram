@@ -1,0 +1,19 @@
+@media screen and (max-width: 1200px){
+    #desktop-nav{
+        display:none;
+    }
+    #hamburger-nav {
+        display: flex;
+    }
+
+    /* .menu-links {
+        display: none; /* Initially hide the menu links */
+     /* */ 
+    /* #hamburger-nav{
+        display: flex ;
+    } */
+    /* .menu-links{
+        top:100px;
+        max-height: 100vh;
+    } */
+}
