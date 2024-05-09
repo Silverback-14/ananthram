@@ -1,6 +1,8 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300;400;500;600;700&display=swap');
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
 *{
     margin:0;
     padding: 0;
@@ -11,7 +13,7 @@ body{
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior: 
 
 }
 
@@ -149,7 +151,7 @@ a:hover{
 
 section{
     padding-top: 4vh;
-    height: 96vh;
+    height: 100vh;
     margin: 0 10rem;
     box-sizing: border-box;
     min-height: fit-content;
@@ -178,7 +180,7 @@ section{
 .section__text{
     align-self: center;
     text-align: center;
-    
+
 }
 
 .section__text p{
@@ -191,7 +193,7 @@ section{
 
 .section__text__p2{
     font-size: 1.75rem;
-    margin-bottom: 1rem;  
+    margin-bottom: 1rem;
 }
 
 .title{
@@ -280,13 +282,13 @@ section{
 .about-details-container{
     justify-content: center;
     flex-direction: column;
-    
-    
+
+
 }
 
 .about-containers, .about-details-container{
     display: flex;
-    
+
 }
 
 .about-pic{
@@ -304,9 +306,9 @@ section{
      flex: 1;
      background: white;
      border-radius: 2rem;
-     border: rgb(53, 53, 53) 01.rem solid;
+     border: rgb(53, 53, 53) 0.1rem solid;
      border-color: rgb(163, 163, 163);
-     border-width: 10px;
+     /* border-width: 10px; */
      text-align: center;
 }
 
@@ -322,5 +324,176 @@ section{
     margin: auto 0;
 }
 
+/* EXPERIENCE */
+#experience{
+    position: relative;
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 0rem 3rem;
+    scrollbar-width: none;
+}
+
+.experience-sub-title{
+    color: rgb(85, 85, 85);
+    font-weight: 600;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.experience-details-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.article-container{
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
+article{
+    display: flex;
+    width: 10rem;
+    justify-content: space-around;
+    gap: 0.5rem;
+    
+}
+
+article .icon{
+    cursor: default;
+}
+
+/* EXPERIENCE */
+
+/* #experience{
+    position: relative;
+} */
+.exp-container{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid;
+    border-radius: 15px;
+    border-color: rgb(81, 70, 70);
+    
+}
+
+.card{
+    border-radius: 2px;
+    /* border-color: rgb(53, 53, 53); */
+    flex-direction: row;
+    display: flex;
+    width: 100%;
+
+}
+#siemens{
+    width: 45%;
+}
+.container{
+    width: 100%;
+    padding: 20px;
+    justify-content: center;
+    
+}
+
+.exp-date{
+    display: flex;
+    flex-direction: row;
+    /* width: 100%; */
+}
+
+#demo1{
+    width: 70%;
+    font-size: 18px;
+}
+
+/* Grow */
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:focus,
+.hvr-grow:active {
+    transform: scale(1.05);
+}
+
+.exp-content{
+    max-height: fit-content;
+    overflow: auto;
+    scrollbar-width: none;
+}
+
+/* PROJECTS */
+#projects{
+    margin: 5rem 10rem;
+}
+/* CSS */
+.button-54 {
+  justify-content: left;
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #000;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
 
 
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+  
+  .project-card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .project-card {
+    width: 300px; /* Adjust card width as needed */
+    margin: 20px; /* Adjust spacing between cards */
+    text-align: center;
+  }
+  
+  #project1 {
+    max-width: 100%; /* Ensure image doesn't overflow the container */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .button-54 {
+    margin-top: 10px; /* Adjust spacing between image and button */
+  }
